@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Divs</title>
+</head>
+
+<body>
+    <h1>Forms</h1>qdgertzertzertzertze
+    <hr>
+    <p>These are a bunch of inputs</p>
+
+    <div>
+        <label for="name">First Name:</label>
+        <input id="name" type="text" name="first-name" placeholder="Enter your name">
+    </div>
+    <div>
+        <label for="">Age:</label>
+        <input type="number" name="age" value="18">
+    </div>
+    <div>
+        <label for="">password: </label>
+        <input type="password" name="password">
+    </div>
+
+    <div>
+        <label for="">Date of Birth</label>
+        <input type="date" name="dob">
+    </div>
+
+    <div><label for=""> time:</label>
+        <input type="time" name="created-at">
+    </div>
+
+    <div>
+        <label for="">Color</label>
+        <input type="color" value="#ffffff">
+
+    </div>
+
+    <!-- Radio Button -->
+    <input type="radio" name="font" value="bold" id="bold" checked>
+    <label for="bold"><strong>Bold</strong></label>
+    <input type="radio" name="font" id="normal">
+    <label for="normal">Normal</label>
+    <input type="radio" name="font" id="normal">
+    <label for="normal">Italic</label>
+    <div>
+
+        <input type="checkbox" name="accept" id="accept" checked>
+        <label for="accept">I agree to the terms and licsence</label>
+    </div>
+
+    <p>Write your feedback:</p>
+    <textarea name="comment" cols="20" rows="10"
+        placeholder="Please write your message here ...">Write 300 word essai</textarea>
+        
+        <div>
+
+            snacks:
+            <select name="snack">
+                <option value="0" disabled>Out of stock</option>
+                <option value="1">Almonds</option>
+                <option value="2">Cheese and Crackers</option>
+                <option value="3">Pita and Hummus</option>
+                <option value="4">Pears</option>
+            </select>
+        </div>
+        <div>
+
+            <input type="button" value="Submit">
+            <button>Search 🔍</button>
+        </div>
+
+        <h2>Login Form</h2>
+        <form action="/register" method="post" >
+            <div>
+                <label>Name: </label>
+                <input type="text" name="name" 
+                placeholder="Your name..." >
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="text" name="email" 
+                placeholder="Your email..." >
+            </div>
+            <div>
+                <input type="checkbox" name="offers" 
+                id="offers" checked >
+                <label for="offers">I would like 
+                to receive email offers!</label>
+            </div>
+            <input type="submit" value="Sign Up!" >
+        </form>
+
+        <!-- Hijacking Google search -->
+        
+        <form action="https://www.google.com/msqjdhrlazhbr">
+            <label for="">Search 🌍</label>
+            <input type="text" placeholder="Search for something">
+            <button>Submit</button>
+        </form>
+        
+
+
+
+
+
+
+
+</body>
+
+</html>
