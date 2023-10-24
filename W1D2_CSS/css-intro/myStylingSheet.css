@@ -1,0 +1,42 @@
+h1 {
+	color: red;
+}
+
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: green;
+	text-align: center;
+}
+
+.big-text {
+	color: blue;
+}
+
+#some-style {
+	color: green;
+}
+
+.center-text {
+	text-align: center;
+}
+
+div.big-text a {
+	text-decoration: none;
+	font-size: 20px;
+}
+/* ?? */
+
+.big-text > p {
+	background-color: #9acd32;
+}
+
+.big-text p + a {
+	color: red;
+}
+
+.big-text p:nth-child(2) {
+	font-size: 60px;
+}

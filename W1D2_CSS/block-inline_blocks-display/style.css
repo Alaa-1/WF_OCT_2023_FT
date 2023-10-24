@@ -1,0 +1,42 @@
+/* body {
+	background-color: aqua;
+} */
+
+.wrapper {
+	outline: 1px solid blue;
+}
+
+span {
+	color: red;
+}
+
+h1 {
+	outline: 2px red dashed;
+	/* height: 200px;
+	width: 200px; */
+	text-align: center;
+	vertical-align: center;
+	/* margin-top: 100px; */
+}
+h2 {
+	outline: 2px black dashed;
+
+	/* margin: 30px 90px; */
+}
+h1,
+h2 {
+	display: inline-block;
+}
+/* a {
+	display: block;
+} */
+
+.main + a + a {
+	font-size: 30px;
+}
+ul {
+	border: 2px solid black;
+	border-radius: 15px;
+	width: 50%;
+	background-color: red;
+}
