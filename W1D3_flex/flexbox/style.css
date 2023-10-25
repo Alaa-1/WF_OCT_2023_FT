@@ -1,0 +1,26 @@
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 6rem;
+}
+.container {
+	border: 4px solid black;
+	width: 1300px;
+	height: 1800px;
+	margin: 40px auto;
+	/* step 1 */
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	/* justify-content: end; */
+	/* align-content: space-between; */
+	align-items: start;
+}
+
+.box {
+	width: 150px;
+	height: 240px;
+	/* height: 150px; */
+	font-size: 4rem;
+	text-align: center;
+}
