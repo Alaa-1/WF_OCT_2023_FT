@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>input and change</title>
+	</head>
+	<body>
+		<h1>Hello DOM !</h1>
+		<hr />
+		<!-- input -->
+		<div class="card">
+			<p>You chose this color:</p>
+		</div>
+
+		<input type="text" class="color-input" />
+		<button onclick="setColor()">Submit</button>
+
+		<!-- select -->
+		<hr />
+		<div>
+			<label>I would like to eat </label>
+			<select onchange="chooseLunch(this)">
+				<option>Tacos</option>
+				<option>Pasta</option>
+				<option>Sushi</option>
+			</select>
+		</div>
+		<hr />
+	</body>
+	<script src="script.js"></script>
+</html>

@@ -1,0 +1,23 @@
+/* CSS RESET */
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: teal;
+    width: 500px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
