@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio Bootstrap</title>
+		<!-- bootstrap css cdn -->
+		<!-- <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/> -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<!-- boostrap icons cdn  -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-dark mb-3" data-bs-theme="dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">Profile Page</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#"
+								><i class="bi bi-house-door"></i> Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#"
+								><i class="bi bi-person"></i> My Profile</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"
+								><i class="bi bi-person-add"></i> Find Connections</a
+							>
+						</li>
+					</ul>
+					<button class="btn btn-primary" type="submit">Sign Out</button>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<main class="col-lg-8 col-sm-12 col-12">
+					<!-- 1st card  -->
+					<div class="card">
+						<div class="header bg-primary p-5">
+							<img
+								src="./images/jane-m.jpg"
+								alt="Jane's image"
+								class="avatar rounded-circle position-absolute"
+							/>
+						</div>
+						<div class="card-body mt-5">
+							<h3 class="card-title">Jane Doe</h3>
+
+							<div class="card-text">
+								<p><i class="bi bi-geo-alt-fill"></i> Seattle</p>
+								<p class="mb-0">Developer | Engineer | Problem Solver</p>
+								<p>Master of shadows and the Internet</p>
+							</div>
+
+							<a href="#" class="me-1"><i class="bi bi-gear-fill"></i></a
+							><a href="#" class="card-link">edit profile</a>
+						</div>
+					</div>
+					<div class="card mt-3">
+						<div class="header bg-dark p-2">
+							<h3 class="card-title text-light">Education</h3>
+						</div>
+						<div class="card-body">
+							<div class="card-text">
+								<h4>Coding Dojo - Full Stack Bootcamp</h4>
+								<p class="text-muted">Dec 2019 - Mar 2020</p>
+								<p class="fw-bold">
+									Triple Black Belt in Python, MERN, and C# ...
+								</p>
+							</div>
+						</div>
+					</div>
+				</main>
+				<aside class="col-lg-4 col-sm-12 col-12">
+					<!-- Connection Requests  -->
+					<div class="card">
+						<div class="header bg-dark p-2">
+							<span
+								class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-danger"
+								>2</span
+							>
+							<h4 class="card-title text-light">Connection Requests</h4>
+						</div>
+						<div class="card-body">
+							<div
+								class="connection d-flex justify-content-between align-items-center"
+							>
+								<div
+									class="connection-info d-flex justify-content-between align-items-center gap-2"
+								>
+									<img
+										src="./images/todd-s.jpg"
+										alt="todd image"
+										class="avatar-sm rounded-circle"
+									/>
+									<p class="mb-0">Todd E</p>
+								</div>
+								<div class="action">
+									<i class="bi bi-check-circle-fill fs-3 text-secondary"></i>
+									<i class="bi bi-x-circle-fill fs-3 text-secondary"></i>
+								</div>
+							</div>
+							<div
+								class="connection d-flex justify-content-between align-items-center mt-2"
+							>
+								<div
+									class="connection-info d-flex justify-content-between align-items-center gap-2"
+								>
+									<img
+										src="./images/phil-s.jpg"
+										alt="todd image"
+										class="avatar-sm rounded-circle"
+									/>
+									<p class="mb-0">Phill K</p>
+								</div>
+								<div class="action">
+									<i class="bi bi-check-circle-fill fs-3 text-secondary"></i>
+									<i class="bi bi-x-circle-fill fs-3 text-secondary"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Your Connections  -->
+					<div class="card mt-4">
+						<div class="header bg-dark p-2">
+							<span
+								class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-danger"
+								>500+</span
+							>
+							<h4 class="card-title text-light">Your Connections</h4>
+						</div>
+						<div class="card-body">
+							<div
+								class="connection d-flex justify-content-between align-items-center"
+							>
+								<div
+									class="connection-info d-flex justify-content-between align-items-center gap-2"
+								>
+									<img
+										src="./images/adrien-s.jpg"
+										alt="todd image"
+										class="avatar-sm rounded-circle"
+									/>
+									<p class="mb-0">Adrien D</p>
+								</div>
+							</div>
+							<div
+								class="connection d-flex justify-content-between align-items-center mt-2"
+							>
+								<div
+									class="connection-info d-flex justify-content-between align-items-center gap-2"
+								>
+									<img
+										src="./images/anne-s.jpg"
+										alt="todd image"
+										class="avatar-sm rounded-circle"
+									/>
+									<p class="mb-0">Anne J</p>
+								</div>
+							</div>
+							<div
+								class="connection d-flex justify-content-between align-items-center mt-2"
+							>
+								<div
+									class="connection-info d-flex justify-content-between align-items-center gap-2"
+								>
+									<img
+										src="./images/alayne-s.jpg"
+										alt="todd image"
+										class="avatar-sm rounded-circle"
+									/>
+									<p class="mb-0">Alayne T</p>
+								</div>
+							</div>
+							<div
+								class="connection d-flex justify-content-between align-items-center mt-2"
+							>
+								<div
+									class="connection-info d-flex justify-content-between align-items-center gap-2"
+								>
+									<img
+										src="./images/arry-s.jpg"
+										alt="todd image"
+										class="avatar-sm rounded-circle"
+									/>
+									<p class="mb-0">Arry Y</p>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer">
+							<a href="#">View More ...</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</div>
+		<!-- bootstrap js cdn -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
